@@ -20,7 +20,6 @@
 			<name>ORACLE JDBC Repository</name>
 			<url>https://maven.atlassian.com/3rdparty/</url>
 		</repository>
-			<!-- local -->
 	<repository>
 		<id>local-repo</id>
 		<name>local Repository</name>
