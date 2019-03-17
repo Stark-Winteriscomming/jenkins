@@ -20,6 +20,19 @@
 			<name>ORACLE JDBC Repository</name>
 			<url>https://maven.atlassian.com/3rdparty/</url>
 		</repository>
+		<pluginRepositories>
+    <pluginRepository>
+        <id>acme corp</id>
+        <name>Acme Internal Corporate Repository</name>
+        <url>http://acmecorp.com/plugins</url>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+        <releases>
+            <enabled>false</enabled>
+        </releases>
+    </pluginRepository>
+</pluginRepositories>
 	</repositories>
 	<dependencies>
 		<!-- Spring -->
@@ -182,18 +195,6 @@
 				<version>2.2</version>
 			</plugin>
 		</plugins>
-		<pluginRepositories>
-    <pluginRepository>
-        <id>acme corp</id>
-        <name>Acme Internal Corporate Repository</name>
-        <url>http://acmecorp.com/plugins</url>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-        <releases>
-            <enabled>false</enabled>
-        </releases>
-    </pluginRepository>
-</pluginRepositories>
+		
 	</build>
 </project>
