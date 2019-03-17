@@ -142,12 +142,12 @@
 		</dependency>
 
 	</dependencies>
-	<pluginRepositories>
+<!-- 	<pluginRepositories>
     <pluginRepository>
       <id>apache.snapshots</id>
       <url>http://repository.apache.org/snapshots/</url>
       <!-- The releases element here is due to an issue in Maven 2.0 that will be
-           fixed in future releases. This should be able to be disabled altogether. -->
+           fixed in future releases. This should be able to be disabled altogether. 
       <releases>
         <updatePolicy>daily</updatePolicy>
       </releases>
@@ -155,7 +155,7 @@
         <updatePolicy>daily</updatePolicy>
       </snapshots>
     </pluginRepository>
-  </pluginRepositories>
+  </pluginRepositories> -->
 	<build>
 	<plugins>
 		
