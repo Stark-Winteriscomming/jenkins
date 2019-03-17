@@ -14,7 +14,7 @@
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
-	<repositories>
+<!-- 	<repositories>
 		<repository>
 			<id>oracle</id>
 			<name>ORACLE JDBC Repository</name>
@@ -26,7 +26,7 @@
 		<name>local Repository</name>
 		<url>file://C:\Users\changho\Desktop\chTemp</url>
 	</repository>
-	</repositories>
+	</repositories> -->
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
