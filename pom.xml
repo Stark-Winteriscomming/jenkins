@@ -20,17 +20,6 @@
 			<name>ORACLE JDBC Repository</name>
 			<url>https://maven.atlassian.com/3rdparty/</url>
 		</repository>
-    <pluginRepository>
-        <id>acme corp</id>
-        <name>Acme Internal Corporate Repository</name>
-        <url>http://acmecorp.com/plugins</url>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-        <releases>
-            <enabled>false</enabled>
-        </releases>
-    </pluginRepository>
 	</repositories>
 	<dependencies>
 		<!-- Spring -->
@@ -148,6 +137,20 @@
 		</dependency>
 
 	</dependencies>
+	<pluginRepositories>
+    <pluginRepository>
+      <id>apache.snapshots</id>
+      <url>http://repository.apache.org/snapshots/</url>
+      <!-- The releases element here is due to an issue in Maven 2.0 that will be
+           fixed in future releases. This should be able to be disabled altogether. -->
+      <releases>
+        <updatePolicy>daily</updatePolicy>
+      </releases>
+      <snapshots>
+        <updatePolicy>daily</updatePolicy>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
 	<build>
 	<plugins>
 		
